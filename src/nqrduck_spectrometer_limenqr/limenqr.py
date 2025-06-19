@@ -1,8 +1,8 @@
 """BaseSpectrometer for Lime NQR spectrometer."""
 
 from nqrduck_spectrometer.base_spectrometer import BaseSpectrometer
-from .model import LimeNQRModel
-from .view import LimeNQRView
-from .controller import LimeNQRController
+from .model import DuckLimeNQRModel
+from .view import DuckLimeNQRView
+from .controller import DuckLimeNQRController
 
-LimeNQR = BaseSpectrometer(LimeNQRModel, LimeNQRView, LimeNQRController)
+LimeNQR = BaseSpectrometer(DuckLimeNQRModel, DuckLimeNQRView, DuckLimeNQRController)

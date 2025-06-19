@@ -2,7 +2,7 @@
 from nqrduck_spectrometer.base_spectrometer_view import BaseSpectrometerView
 
 
-class LimeNQRView(BaseSpectrometerView):
+class DuckLimeNQRView(BaseSpectrometerView):
     """View class for LimeNQR spectrometer."""
 
     def __init__(self, module):

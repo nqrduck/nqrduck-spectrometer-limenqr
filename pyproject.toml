@@ -29,6 +29,7 @@ dependencies = [
     "pyqt6",
     "h5py",
     "pyserial",
+    "quackseq_limenqr",
 ]
 
 [project.entry-points."nqrduck"]
@@ -44,9 +45,6 @@ extend-select = [
   "UP",  # pyupgrade
   "D",   # pydocstyle
 ]
-
-[tool.ruff.lint.per-file-ignores]
-"__init__.py" = ["F401"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
