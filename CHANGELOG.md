@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.0.8 (19-06-2025)
+
+- Change to quackseq pulseprogramming framework (`8ef62db2e0593c78713dbbbf7e4e4ee73a6c407e`)
+
 ## Version 0.0.7 (22-05-2024)
 
 - Improved error handling for failed measurements (`63b2908eb2fb3586e7ae9423036031ec31ea90b2`)
