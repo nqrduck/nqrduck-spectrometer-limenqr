@@ -7,7 +7,7 @@ allow-direct-references = true
 
 [project]
 name = "nqrduck-spectrometer-limenqr"
-version = "0.0.8"
+version = "0.0.9"
 authors = [
   { name="jupfi", email="support@nqrduck.cool" },
 ]
@@ -29,7 +29,7 @@ dependencies = [
     "pyqt6",
     "h5py",
     "pyserial",
-    "quackseq_limenqr",
+    "quackseq-limenqr",
 ]
 
 [project.entry-points."nqrduck"]

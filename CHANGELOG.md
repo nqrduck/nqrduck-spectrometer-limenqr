@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.0.9 (19-06-2025)
+
+- Hotfix: Missing quackseq dependency
+
 ## Version 0.0.8 (19-06-2025)
 
 - Change to quackseq pulseprogramming framework (`8ef62db2e0593c78713dbbbf7e4e4ee73a6c407e`)
